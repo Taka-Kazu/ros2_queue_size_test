@@ -18,7 +18,7 @@ ament_target_dependencies(queue_size_test_subscriber_spin_some rclcpp std_msgs)
 add_executable(queue_size_test_subscriber_spin src/subscriber_spin.cpp)
 ament_target_dependencies(queue_size_test_subscriber_spin rclcpp std_msgs)
 
-install (TARGETS
+install(TARGETS
     queue_size_test_publisher
     queue_size_test_subscriber_spin_some
     queue_size_test_subscriber_spin
